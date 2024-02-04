@@ -430,8 +430,7 @@
   }
   .article-content p {
       margin-bottom: 1em;
-      text-align: justify; /* or left, depending on your preference */
-  }
+   }
 
   .article-excerpt {
       font-size: 0.9rem;
