@@ -99,7 +99,7 @@
     display: none;
   }
   .social1{
-      background-image: url(/NCTHimgs/Homepageimg/insta.png);
+      background-image: url(NCTHimgs/Homepageimg/insta.png);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -107,7 +107,7 @@
       height: 35px;
   }
   .social2{
-      background-image: url(/NCTHimgs/Homepageimg/email.png);
+      background-image: url(NCTHimgs/Homepageimg/email.png);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -130,7 +130,7 @@
       align-items: center;
   }
   .logo{
-      background-image: url(/NCTHimgs/Homepageimg/NCTHS-removebg-preview.png);
+      background-image: url(NCTHimgs/Homepageimg/NCTHS-removebg-preview.png);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -882,10 +882,10 @@
     background-size: cover;  
   }
   .finstagram{
-    background-image: url(/NCTHimgs/Homepageimg/insta.png);
+    background-image: url(NCTHimgs/Homepageimg/insta.png);
   }
   .fmail{
-    background-image: url(/NCTHimgs/Homepageimg/email.png);
+    background-image: url(NCTHimgs/Homepageimg/email.png);
   }
   .articleh1{
     font-family: 'open sans';
@@ -1009,6 +1009,7 @@
   }
 
   .submit-btn {
+      border: none;
       float: right;
       padding: 18px 35px;
       border-radius: 60px;
@@ -1256,6 +1257,11 @@
   max-width: 600px;
   margin-bottom: 5px;
   
+}
+.subh1{
+  font-size: 17px;
+  font-weight: 500;
+  z-index: 3;
 }
 .article-container{
   display: flex;
