@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Falcon Insider - Articles</title>
+</head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-64JFC91TLQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-64JFC91TLQ');
+  </script>
+<body>
+  <div class="mainhome"> 
+    <nav class="navbar"> <!-- this is the navigation bar -->
+         <div class="NCTHlogo"> <!-- this is the logo-->
+           <a href="#"><div class="logo"></div></a>  
+           <a href="index.html"> <h1>Falcon Insider</h1></a> 
+         </div>
+         <ul class="nav_ul"><!-- these are the navigational items -->
+             <li class="navitems"> <a href="index.html">Home</a></li>
+             <li class="navitems"> <a href="AboutUS.html">About Us</a></li>
+             <li class="navitems"> <a href="Articles.html">Articles</a></li>
+             <li class="navitems"> <a href="Contact.html">Contact</a></li>
+             <div class="navsocials"> 
+                 <a href="https://instagram.com/ncths.webdev" target="_blank" ><div class="social1"></div></a> 
+                 <a href="mailto:ncths.newspaper@gmail.com" target="blank"><div class="social2"></div></a> 
+              </div> <!-- this is the instagram logo-->
+         </ul>
+         <div class="navsocials"> 
+             <a href="https://instagram.com/ncths.webdev" target="_blank"><div class="social1"></div></a> 
+             <a href="mailto:ncths.newspaper@gmail.com" target="blank"><div class="social2"></div></a> 
+          </div> <!-- this is the instagram logo-->
+           <div class="hamburger"> <!-- hamburger menu -->
+             <span class="bars"></span>
+             <span class="bars"></span>
+             <span class="bars"></span>
+           </div>
+     </nav>
+    
+    <!-- Main articles section -->
+    <section class="last-articles">
+        <h1 class="LastHeader">Latest Articles</h1>
+        <!-- Article list -->
+        <section class="article-list">
+          <!-- Repeat this structure for each article -->
+          <div class="lastArtWrapperbox">
+            <div class="LAD1 LAD11"> </div> <!-- Use the same classes for images -->
+            <div class="LAD2">
+              <p> The NCTH Web Development Club introduces a dynamic newsletter website, aimed information about weekly endeavors within the school community.</p>
+              <a href="article1.html"> <div class="lastArtB"> <h3>Read</h3></div></a>
+              <h4>Feb 1, 2024</h4>
+            </div>
+          </div>
+          <!-- More articles -->
+        </section>
+    </section>
+    
+<section class="footer" id="subscribe">
+  <div class="footer-row">
+    <div class="footer-col">
+      <h4>Our Mission</h4>
+      <ul class="links">
+        <p>We strive to deliver semi-casual, personal and real news to those who want to read. We try to bring a little sparkle to the student body and offer a place to be recognized and heard.
+</p>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Links</h4>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUS.html" >About Us</a></li>
+        <li><a href="Articles.html">Articles</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 id="wierdh4">Newsletter</h4>
+      <p>
+        Subscribe to our newsletter for a byweekly dose
+        of news and updates in NewCentury Technology High.
+      </p>
+      <form action="https://script.google.com/macros/s/AKfycbxJFR3xxTou9VvqEy_iBcl4fvk2OaGNGqbryeIs4ZH_7_GYu2Zv4BPujc8PW0A6R5b5/exec" method="post"  >
+        <input type="email" placeholder="Your email" name="email" required>
+        <button type="submit" value="submit" name="submit" onclick="submited=true">SUBSCRIBE</button> </a> 
+      </form>
+       <!-- <script>
+        let form = documnent.querySelector('form');
+        form.addEventListener('submit', function(e)=>{
+          e.preventDefault();
+          let data = new FormData(form);
+          fetch("url",{
+            method: "POST",
+            body: data
+          })
+            .then(res => res.text());
+            .then(data => console.log(data));    
+        })
+      </script> -->
+      <div class="icons">
+        <a href="https://instagram.com/ncths.webdev" target="_blank" ><div class="fa-brands finstagram"></div></a>
+        <a href="mailto:ncths.newspaper@gmail.com" target="blank"><div class="fa-brands fmail"></div></a>
+      </div>
+    </div>
+  </div>
+  <section class="footer-bottomthing"> <p> ©Copyright 2024 NCTHS Newsletter</p></section>
+</section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
