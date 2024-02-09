@@ -379,7 +379,7 @@ li{
     flex-wrap: wrap;
     gap: 20px;
     padding: 0px 10px;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 
